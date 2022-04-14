@@ -1,3 +1,4 @@
 linguist-documentation=false
 linguist-vendored=false
-*.js linguist-detectable=false
+* linguist-vendored
+*.js linguist-vendored=false

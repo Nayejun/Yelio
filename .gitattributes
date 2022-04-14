@@ -1,1 +1,8 @@
-*.js linguist-vendored
+linguist-documentation=false
+linguist-vendored=false
+.pnp.cjs linguist-vendored
+.pnp.loader.mjs linguist-vendored
+next.config.js linguist-vendored
+next-env.d.ts linguist-vendored
+.vscode/* linguist-vendored
+.yarn/* linguist-vendored

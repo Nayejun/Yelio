@@ -38,6 +38,7 @@ class MyDocument extends Document {
       return (
         <Html>
            <Head>
+              <title>Yelio</title>
            </Head>
            <body>
            <Main/>

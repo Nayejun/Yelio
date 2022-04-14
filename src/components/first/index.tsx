@@ -4,7 +4,7 @@ import * as S from "./style";
 const First = () => {
   return (
      <>
-       <S.wraper/>
+        <S.wrapper>hello</S.wrapper>
      </>
   );
 }

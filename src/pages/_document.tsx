@@ -1,15 +1,9 @@
-import Document, {
-   Html,
-   Head,
-   Main,
-   NextScript,
-   DocumentContext, DocumentInitialProps,
-} from 'next/document'
+import React, {ReactElement} from "react";
+import Document, {Html, Head, Main, NextScript} from 'next/document';
 import {ServerStyleSheet} from "styled-components";
 
-class MyDocument extends Document {
-
-   static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
+export default class MyDocument extends Document {
+   static async getInitialProps(ctx) {
       const sheet = new ServerStyleSheet();
       const originalRenderPage = ctx.renderPage;
 
@@ -23,18 +17,22 @@ class MyDocument extends Document {
          const initialProps = await Document.getInitialProps(ctx);
          return {
             ...initialProps,
+            styles: (
+              <>
+                 {initialProps.styles}
+                 {sheet.getStyleElement()}
+              </>
+            ),
          };
       } finally {
          sheet.seal();
       }
    }
 
-
-   render() {
+   render(): ReactElement {
       return (
-        <Html>
+        <Html lang="en">
            <Head>
-              // 생략
            </Head>
            <body>
            <Main/>
@@ -44,5 +42,3 @@ class MyDocument extends Document {
       );
    }
 }
-
-export default MyDocument;

@@ -13,6 +13,7 @@ export const wrapper = styled.div`
 `;
 export const WhoAmI = styled.div`
   font-style: normal;
+  font-family: 'AppleSDGothicNeoB', sans-serif;
   font-weight: 400;
   font-size: 80px;
   line-height: 115px;

@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Bg from "../../assets/images/bg.png";
 
 export const wrapper = styled.div`
   width: 100%;
@@ -6,6 +7,7 @@ export const wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  
   img {
     width: 100%;
     height: 100%;

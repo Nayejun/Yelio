@@ -17,8 +17,8 @@ export const wrapper = styled.div`
 export const WhoAmI = styled.div`
   font-style: normal;
   font-weight: 700;
-  font-size: 70px;
-  line-height: 90px;
+  font-size: 65px;
+  line-height: 85px;
   color: white;
   margin-left: -80vh;
   z-index: 1;
@@ -54,21 +54,34 @@ export const Rectangle4 = styled(Rectangle)`
   margin-left: 110vh;
   margin-top: 50vh;
 `;
+export const Line1 = styled.div`
+  position: absolute;
+  margin-left: 33.5vh;
+  width: 1px;
+  height: 1080px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transform: rotate(22.5deg);
+`;
+export const Line2 = styled(Line1)`
+  margin-left: 59.7vh;
+  transform: rotate(21deg);
+`;
 export const Blur = styled.div`
   position: absolute;
   background: linear-gradient(90deg, rgba(122, 133, 255, 0.1) 0%, rgba(122, 133, 255, 0) 119.73%);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   backdrop-filter: blur(10px);
-  transform: rotate(20deg);
 `
 export const Blur1 = styled(Blur)`
   margin-left: -40vh;
-  width: 1250px;
-  height: 2000px;
+  width: 1600px;
+  height: 848px;
+  clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
 `;
 export const Blur2 = styled(Blur)`
   width: 500px;
-  height: 2000px;
-  margin-left: 90vh;
+  height: 848px;
+  margin-left: 70vh;
+  clip-path: polygon(65% 0, 100% 0, 100% 100%, 0% 100%);
 `;

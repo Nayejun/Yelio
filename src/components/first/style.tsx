@@ -44,18 +44,31 @@ export const Rectangle2 = styled(Rectangle)`
   margin-top: 45vh;
 `;
 export const Rectangle3 = styled(Rectangle)`
-  width: 680px;
-  height: 680px;
+  width: 650px;
+  height: 650px;
   margin-left: 50vh;
 `;
+export const Rectangle4 = styled(Rectangle)`
+  width: 460px;
+  height: 460px;
+  margin-left: 110vh;
+  margin-top: 50vh;
+`;
 export const Blur = styled.div`
-  margin-left: -40vh;
-  width: 1250px;
-  height: 2000px;
   position: absolute;
   background: linear-gradient(90deg, rgba(122, 133, 255, 0.1) 0%, rgba(122, 133, 255, 0) 119.73%);
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
-  backdrop-filter: blur(18px);
+  backdrop-filter: blur(10px);
   transform: rotate(20deg);
+`
+export const Blur1 = styled(Blur)`
+  margin-left: -40vh;
+  width: 1250px;
+  height: 2000px;
+`;
+export const Blur2 = styled(Blur)`
+  width: 500px;
+  height: 2000px;
+  margin-left: 90vh;
 `;

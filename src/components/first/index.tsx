@@ -2,7 +2,6 @@ import React from "react";
 import * as S from "./style";
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import {Rectangle2} from "./style";
 
 // const Rectangle = dynamic(() => import("../../assets/images/Rectangle.png"), {
 //    ssr: false
@@ -16,7 +15,11 @@ const First = () => {
            <S.Rectangle1/>
            <S.Rectangle2/>
            <S.Rectangle3/>
-           <S.Blur/>
+           <S.Rectangle4/>
+           <S.Blur1/>
+           <S.Blur2/>
+
+
         </S.wrapper>
      </>
    );

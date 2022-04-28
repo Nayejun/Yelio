@@ -37,4 +37,9 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 600;
     src: url("/public/fonts/AppleSDGothicNeoH.ttf") format("truetype");
   }
+  @font-face {
+    font-family: "AppleSDGothicNeoEB";
+    font-weight: 700;
+    src: url("/public/fonts/AppleSDGothicNeoEB.ttf") format("truetype");
+  }
 `;

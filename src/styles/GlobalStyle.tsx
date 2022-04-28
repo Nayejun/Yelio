@@ -13,13 +13,28 @@ export const GlobalStyle = createGlobalStyle`
   }
   //Heavy, Extra-Bole, Thin, Regular, Light, Semi-Bold, Ultra-Thin
   @font-face {
-    font-family: "AppleSDGothicNeoB";
+    font-family: "AppleSDGothicNeoT";
+    font-weight: 100;
+    src: url("/public/fonts/AppleSDGothicNeoT.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "AppleSDGothicNeoL";
     font-weight: 200;
+    src: url("/public/fonts/AppleSDGothicNeoL.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "AppleSDGothicNeoR";
+    font-weight: 300;
+    src: url("/public/fonts/AppleSDGothicNeoR.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "AppleSDGothicNeoB";
+    font-weight: 500;
     src: url("/public/fonts/AppleSDGothicNeoB.ttf") format("truetype");
   }
   @font-face {
     font-family: "AppleSDGothicNeoH";
-    font-weight: 200;
+    font-weight: 600;
     src: url("/public/fonts/AppleSDGothicNeoH.ttf") format("truetype");
   }
 `;

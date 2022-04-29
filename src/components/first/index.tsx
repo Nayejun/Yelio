@@ -12,7 +12,7 @@ const First = () => {
         {/*<S.Line1/>*/}
         {/*<S.Line2/>*/}
         <S.Blur1/>
-        {/*<S.Blur2/>*/}
+        <S.Blur2/>
      </S.wrapper>
    );
 }

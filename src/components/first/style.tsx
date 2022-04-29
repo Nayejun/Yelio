@@ -64,13 +64,22 @@ export const Rectangle4 = styled(Rectangle)`
   //-webkit-border-radius: 200px 0 0 200px;
   //-moz-border-radius: 200px 0 0 200px;
 `;
-export const Line1 = styled.div`
-  width: 1px;
+export const Line = styled.div`
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 3px;
   height: 1080px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  transform: rotate(22.5deg);
+  border: 10px solid rgba(255, 255, 255, 0.3);
 `;
-export const Line2 = styled(Line1)`
+export const Line1 = styled(Line)`
+  transform: rotate(17deg);
+  margin-left: 118.5vh;
+  margin-top: -5vh;
+`;
+export const Line2 = styled(Line)`
   transform: rotate(21deg);
 `;
 export const Blur = styled.div`
@@ -80,17 +89,17 @@ export const Blur = styled.div`
   top: 0;
   bottom: 0;
   background: linear-gradient(90deg, rgba(122, 133, 255, 0.1) 0%, rgba(122, 133, 255, 0) 119.73%);
-  border: 1px solid rgba(255, 255, 255, 0.3);
   box-sizing: border-box;
   backdrop-filter: blur(10px);
 `;
 export const Blur1 = styled(Blur)`
-  width: 70vh;
+  width: 135vh;
   height: 100vh;
   clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
 `;
 export const Blur2 = styled(Blur)`
-  width: 110vh;
+  margin-left: 120vh;
+  width: 70vh;
   height: 100vh;
-  clip-path: polygon(65% 0, 100% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(43% 0, 100% 0, 100% 100%, 0% 100%);
 `;

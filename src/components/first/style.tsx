@@ -74,14 +74,6 @@ export const Line = styled.div`
   height: 1080px;
   border: 10px solid rgba(255, 255, 255, 0.3);
 `;
-export const Line1 = styled(Line)`
-  transform: rotate(17deg);
-  margin-left: 118.5vh;
-  margin-top: -5vh;
-`;
-export const Line2 = styled(Line)`
-  transform: rotate(21deg);
-`;
 export const Blur = styled.div`
   position: absolute;
   left: 0;
@@ -91,15 +83,18 @@ export const Blur = styled.div`
   background: linear-gradient(90deg, rgba(122, 133, 255, 0.1) 0%, rgba(122, 133, 255, 0) 119.73%);
   box-sizing: border-box;
   backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 `;
 export const Blur1 = styled(Blur)`
-  width: 135vh;
-  height: 100vh;
-  clip-path: polygon(0 0, 100% 0, 78% 100%, 0% 100%);
+  width: 140vh;
+  height: 150vh;
+  margin-top: -30vh;
+  margin-left: -20vh;
+  transform: rotate(18deg);
 `;
 export const Blur2 = styled(Blur)`
-  margin-left: 120vh;
-  width: 70vh;
-  height: 100vh;
-  clip-path: polygon(43% 0, 100% 0, 100% 100%, 0% 100%);
+  margin-left: 135vh;
+  width: 100vh;
+  height: 150vh;
+  transform: rotate(18deg);
 `;

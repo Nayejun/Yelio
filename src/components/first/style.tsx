@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Bg from "../../assets/images/bg.png";
 
 export const wrapper = styled.div`
   width: 100%;
@@ -45,8 +44,6 @@ export const Rectangle1 = styled(Rectangle)`
 export const Rectangle2 = styled(Rectangle)`
   width: 35vh;
   height: 35vh;
-  //-webkit-border-radius: 0 500px 0 0;
-  //-moz-border-radius: 0 500px 0 0;
   margin-left: -10vh;
   margin-top: 70vh;
 `;
@@ -61,18 +58,6 @@ export const Rectangle4 = styled(Rectangle)`
   height: 30vh;
   margin-top: 75vh;
   margin-left: 167vh;
-  //-webkit-border-radius: 200px 0 0 200px;
-  //-moz-border-radius: 200px 0 0 200px;
-`;
-export const Line = styled.div`
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 3px;
-  height: 1080px;
-  border: 10px solid rgba(255, 255, 255, 0.3);
 `;
 export const Blur = styled.div`
   position: absolute;

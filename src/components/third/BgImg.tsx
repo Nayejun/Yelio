@@ -1,6 +1,6 @@
 import {useEffect, useState} from "react";
 import Image from "next/image";
-import Bg from "../../assets/images/BG1.png";
+import Bg from "../../assets/images/BG2.png";
 import styled from "styled-components";
 
 const Positioner = styled.div`

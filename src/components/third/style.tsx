@@ -15,6 +15,7 @@ export const ProfileWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
 `;
 export const ProfileLine = styled.div`
   width: 2px;

@@ -2,6 +2,11 @@ import React from "react";
 import * as S from "./style";
 import Image from 'next/image'
 import Profile from "../../assets/images/profile.png";
+import dynamic from "next/dynamic";
+
+const BackgroundImg = dynamic(() => import("./BgImg"), {
+   ssr: false
+})
 
 const Third = () => {
    return (
@@ -18,6 +23,7 @@ const Third = () => {
               나예준
            </S.Information>
         </S.ProfileWrapper>
+        <BackgroundImg/>
      </S.Positioner>
    );
 }

@@ -34,7 +34,7 @@ export function BGImage() {
    if (width && height) {
       return (
            <Image
-             src={BG}
+             src={BG.src}
              width={width}
              height={height}
            />

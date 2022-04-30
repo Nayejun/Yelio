@@ -1,28 +1,35 @@
-import { useEffect, useState } from "react";
+import {useEffect, useState} from "react";
 import Image from "next/image";
-import BG from "../../assets/images/BG.png"
+import Bg from "../../assets/images/BG.png";
+import styled from "styled-components";
 
-function getWindowDimensions() {
-   const { innerWidth: width, innerHeight: height } = window;
+const Positioner = styled.div`
+  position: fixed;
+  z-index: 0;
+  top: 0;
+`;
+
+const getWindowDimensions = () => {
+   const {innerWidth: width, innerHeight: height} = window;
    return {
-      width,
-      height,
+      width, height,
    };
 }
 
-export function BGImage() {
+const BgImg = () => {
    const [width, setWidth] = useState<number>();
    const [height, setHeight] = useState<number>();
 
    useEffect(() => {
-      const { width, height } = getWindowDimensions();
+      const {width, height} = getWindowDimensions();
+
       setWidth(width);
       setHeight(height);
    }, []);
 
    useEffect(() => {
-      function handleResize() {
-         const { width, height } = getWindowDimensions();
+      const handleResize = () => {
+         const {width, height} = getWindowDimensions();
          setWidth(width);
          setHeight(height);
       }
@@ -33,13 +40,16 @@ export function BGImage() {
 
    if (width && height) {
       return (
+        <Positioner>
            <Image
-             src={BG.src}
+             src={Bg.src}
              width={width}
              height={height}
            />
+        </Positioner>
       );
    }
-
    return null;
 }
+
+export default BgImg;

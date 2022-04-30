@@ -1,17 +1,17 @@
 import React from "react";
-import dynamic from "next/dynamic"
+import dynamic from "next/dynamic";
 import * as S from "./style";
-import {BGImage} from "./BGImage";
 
-// const BgImage = dynamic(()=>import("./BGImage"), {
-//    ssr: false
-// })
+const BackgroundImg = dynamic(() => import("./BgImg"), {
+   ssr: false
+})
 
 const Second = () => {
    return (
      <>
         <S.Wrapper>
-           <BGImage/>
+           <S.WhoAreYou>Who are you ?</S.WhoAreYou>
+           <BackgroundImg/>
         </S.Wrapper>
      </>
    );

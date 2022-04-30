@@ -14,7 +14,7 @@ export const wrapper = styled.div`
     height: 100%;
   }
 `;
-export const WhoAmI = styled.div`
+export const WhoAmI = styled.p`
   font-style: normal;
   font-weight: 700;
   font-size: 65px;

@@ -6,6 +6,15 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
-  z-index: 1;
+  .img {
+    width: 10px;
+    height: 100vh;
+  }
+`;
+export const WhoAreYou = styled.p`
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 86px;
+  color: #FFFFFF;
 `;

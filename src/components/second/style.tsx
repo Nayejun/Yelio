@@ -9,8 +9,8 @@ export const Wrapper = styled.div`
 `;
 export const WhoAreYou = styled.p`
   font-style: normal;
-  font-weight: 800;
-  font-size: 72px;
+  font-weight: 600;
+  font-size: 65px;
   line-height: 86px;
   color: #FFFFFF;
   z-index: 1;

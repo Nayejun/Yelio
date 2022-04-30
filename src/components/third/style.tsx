@@ -10,7 +10,7 @@ export const Positioner = styled.div`
   color: white;
 `;
 export const ProfileWrapper = styled.div`
-  width: 40%;
+  width: 50%;
   height: 100%;
   display: flex;
   justify-content: space-between;

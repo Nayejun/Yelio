@@ -13,10 +13,11 @@ const Third = () => {
      <S.Positioner>
         <S.ProfileWrapper>
            <Image
+             className="my-img"
              src={Profile.src}
              alt="Picture of the author"
-             width={355}
-             height={450}
+             width={400}
+             height={460}
            />
            <S.ProfileLine/>
            <S.Information>

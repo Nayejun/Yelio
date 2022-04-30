@@ -11,6 +11,7 @@ export const Wrapper = styled.div`
   -moz-backface-visibility: hidden;
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
+  background-color: #1A1E26;
 `;
 export const WhoAreYou = styled.p`
   font-style: normal;

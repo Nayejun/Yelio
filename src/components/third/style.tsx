@@ -6,7 +6,7 @@ export const Positioner = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: #1A1E26;
   color: white;
 `;
 export const ProfileWrapper = styled.div`

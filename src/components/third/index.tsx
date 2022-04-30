@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./style";
 import Image from 'next/image'
-import Profile from "../../assets/images/Profile.png";
+import Profile from "../../assets/images/profile.png";
 
 const Third = () => {
    return (
@@ -10,9 +10,10 @@ const Third = () => {
            <Image
              src={Profile.src}
              alt="Picture of the author"
-             width={400}
+             width={355}
              height={450}
            />
+           <S.ProfileLine/>
            <S.Information>
               나예준
            </S.Information>

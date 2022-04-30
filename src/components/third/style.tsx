@@ -10,11 +10,16 @@ export const Positioner = styled.div`
   color: white;
 `;
 export const ProfileWrapper = styled.div`
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+`;
+export const ProfileLine = styled.div`
+  width: 2px;
+  height: 300px;
+  background-color: white;
 `;
 export const Information = styled.p`
   font-style: normal;

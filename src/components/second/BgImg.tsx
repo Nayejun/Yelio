@@ -4,9 +4,14 @@ import Bg from "../../assets/images/BG.png";
 import styled from "styled-components";
 
 const Positioner = styled.div`
-  position: fixed;
+  //position: fixed;
+  position: absolute;
   z-index: 0;
   top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  overflow-y: hidden;
 `;
 
 const getWindowDimensions = () => {

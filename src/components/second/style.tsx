@@ -6,6 +6,11 @@ export const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
 `;
 export const WhoAreYou = styled.p`
   font-style: normal;

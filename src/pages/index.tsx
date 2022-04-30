@@ -2,6 +2,7 @@ import type {NextPage} from 'next'
 import Head from 'next/head'
 import First from "../components/first";
 import Second from "../components/second";
+import Third from "../components/third";
 
 const Home: NextPage = () => {
     return (
@@ -13,6 +14,7 @@ const Home: NextPage = () => {
             </Head>
             <First/>
            <Second/>
+           <Third/>
         </>
     );
 }

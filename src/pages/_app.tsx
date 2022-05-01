@@ -3,6 +3,7 @@ import {GlobalStyle} from "../styles/GlobalStyle";
 import First from "../components/first";
 import Second from "../components/second";
 import Third from "../components/third";
+import Forth from "../components/forth";
 
 function MyApp({Component, pageProps}: AppProps) {
    return (
@@ -11,6 +12,7 @@ function MyApp({Component, pageProps}: AppProps) {
         <First/>
         <Second/>
         <Third/>
+        <Forth/>
         <Component {...pageProps} />
      </>
    );

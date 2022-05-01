@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fullpage/react-fullpage": "^0.1.23",
     "@types/styled-components": "^5.1.25",
     "@yarnpkg/pnpify": "^4.0.0-rc.3",
     "next": "12.1.5",

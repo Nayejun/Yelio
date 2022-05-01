@@ -12,7 +12,6 @@ const BackgroundImg = dynamic(() => import("./BgImg"), {
 const Forth = () => {
    return (
      <S.Positioner>
-        <BackgroundImg/>
         <S.Wrapper>
            <S.TextWrapper>
               <S.Projects>Projects</S.Projects>
@@ -49,6 +48,7 @@ const Forth = () => {
               </S.ProjectAbout>
            </S.BoxWrapper>
         </S.Wrapper>
+        <BackgroundImg/>
      </S.Positioner>
    );
 }

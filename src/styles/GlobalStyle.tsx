@@ -16,6 +16,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     font-family: AppleSDGothicNeo, sans-serif;
+    background-color: #1A1E26;
   }
 
   //Heavy, Extra-Bole, Thin, Regular, Light, Semi-Bold, Ultra-Thin

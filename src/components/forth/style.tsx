@@ -9,6 +9,7 @@ export const Positioner = styled.div`
 `;
 export const Wrapper = styled(Positioner)`
   flex-direction: column;
+  z-index: 1;
 `;
 export const Projects = styled.div`
   font-style: normal;

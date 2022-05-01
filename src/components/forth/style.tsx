@@ -15,7 +15,7 @@ export const Projects = styled.div`
   font-weight: 700;
   font-size: 65px;
   color: white;
-  margin-top: 8vh;
+  margin-top: 5vh;
   margin-bottom: 3vh;
 `;
 export const About = styled.p`
@@ -27,7 +27,7 @@ export const TextWrapper = styled(Positioner)`
   width: 100%;
   height: 40vh;
   flex-direction: column;
-  margin-bottom: -15vh;
+  margin-bottom: -10vh;
 `;
 export const BoxWrapper = styled(Positioner)`
   width: 100%;

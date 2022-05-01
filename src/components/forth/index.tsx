@@ -19,24 +19,34 @@ const Forth = () => {
               <S.About>제가 참여했던 프로젝트를 소개합니다.</S.About>
            </S.TextWrapper>
            <S.BoxWrapper>
-              <S.Box1>
-                 <Image
-                   className="project-EZY"
-                   src={EZY.src}
-                   alt="Picture of the author"
-                   width={300}
-                   height={360}
-                 />
-              </S.Box1>
-              <S.Box2>
-                 <Image
-                   className="project-GCINSIDE"
-                   src={GCINSIDE.src}
-                   alt="Picture of the author"
-                   width={1300}
-                   height={800}
-                 />
-              </S.Box2>
+              <S.ProjectAbout>
+                 <S.Box1>
+                    <Image
+                      className="project-EZY"
+                      src={EZY.src}
+                      alt="Picture of the author"
+                      width={300}
+                      height={360}
+                    />
+                 </S.Box1>
+                 <S.About className="EZY">EZY</S.About>
+                 <S.Line/>
+                 <S.About className="EZY-About">일정관리 iOS 서비스 'EZY' 의 프로모션 페이지를 개발합니다.</S.About>
+              </S.ProjectAbout>
+              <S.ProjectAbout>
+                 <S.Box2>
+                    <Image
+                      className="project-GCINSIDE"
+                      src={GCINSIDE.src}
+                      alt="Picture of the author"
+                      width={1300}
+                      height={800}
+                    />
+                 </S.Box2>
+                 <S.About className="GC">GCINSIDE</S.About>
+                 <S.Line className="GC-Line"/>
+                 <S.About className="GC-About">광주소프트웨어마이스터고등학교 학생 커뮤니티 서비스를 개발합니다.</S.About>
+              </S.ProjectAbout>
            </S.BoxWrapper>
         </S.Wrapper>
      </S.Positioner>

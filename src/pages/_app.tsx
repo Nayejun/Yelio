@@ -5,11 +5,11 @@ import First from "../components/first";
 import Second from "../components/second";
 import Third from "../components/third";
 import Forth from "../components/forth";
+import Fifth from "../components/fifth";
 
 const MyApp = () => (
   <ReactFullpage
     scrollingSpeed={1000}
-
     render={({state, fullpageApi}) => {
        return (
          <>
@@ -19,6 +19,7 @@ const MyApp = () => (
                <div className="section"><Second/></div>
                <div className="section"><Third/></div>
                <div className="section"><Forth/></div>
+               <div className="section"><Fifth/></div>
             </ReactFullpage.Wrapper>
          </>
        );

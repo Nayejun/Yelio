@@ -1,10 +1,10 @@
 import {useEffect, useState} from "react";
 import Image from "next/image";
-import Bg from "../../assets/images/BG1.png";
+import Bg from "../../assets/images/Background/BG1.png";
 import styled from "styled-components";
 
 const Positioner = styled.div`
-  //position: fixed;
+  //position: fixed;x
   position: absolute;
   z-index: 0;
   top: 0;

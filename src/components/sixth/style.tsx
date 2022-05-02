@@ -11,4 +11,20 @@ export const Positioner = styled(Center)`
 `;
 export const Wrapper = styled(Center)`
   flex-direction: column;
+  z-index: 1;
+`;
+export const TextWrapper = styled(Center)`
+  flex-direction: column;
+`;
+export const Text = styled.p`
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  color: white;
+  margin-bottom: 3vh;
+`;
+export const About = styled.p`
+  font-weight: 100;
+  font-size: 20px;
+  color: #BABBBE;
 `;

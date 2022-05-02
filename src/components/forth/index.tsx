@@ -2,8 +2,8 @@ import React from "react";
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 import * as S from "./style"
-import EZY from "../../assets/images/EZY.png";
-import GCINSIDE from "../../assets/images/GCINSIDE.png";
+import EZY from "../../assets/images/Project/EZY.png";
+import GCINSIDE from "../../assets/images/Project/GCINSIDE.png";
 
 const BackgroundImg = dynamic(() => import("./BgImg"), {
    ssr: false

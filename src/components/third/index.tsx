@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./style";
 import Image from 'next/image'
-import Profile from "../../assets/images/profile.png";
+import Profile from "../../assets/images/Profile/profile.png";
 import dynamic from "next/dynamic";
 
 const BackgroundImg = dynamic(() => import("./BgImg"), {

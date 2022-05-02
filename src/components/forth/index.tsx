@@ -19,10 +19,6 @@ const Forth = () => {
            </S.TextWrapper>
            <S.BoxWrapper>
               <S.ProjectAbout>
-                 <S.HideTextWrapper>
-                    <h4>React <br/>react-reveal<br/> styled-components</h4>
-                    <h4>Frontend Developer, QA</h4>
-                 </S.HideTextWrapper>
                  <S.Box1>
                     <Image
                       className="project-EZY"
@@ -42,8 +38,8 @@ const Forth = () => {
                       className="project-GCINSIDE"
                       src={GCINSIDE.src}
                       alt="Picture of the author"
-                      width={1300}
-                      height={800}
+                      width={700}
+                      height={450}
                     />
                  </S.Box2>
                  <S.About className="GC">GCINSIDE</S.About>

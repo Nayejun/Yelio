@@ -71,8 +71,6 @@ export const Box1 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  //background: linear-gradient(180deg, #D0DFFB 0%, #D9D0FB 100%);
-  //border-radius: 12px;
   
   :hover {
     opacity: 10%;

@@ -68,15 +68,17 @@ export const ProjectAbout = styled.div`
 export const Box1 = styled.div`
   width: 540px;
   height: 360px;
-  background: #94A6FF;
-  backdrop-filter: blur(40px);
-  border-radius: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
+  //background: linear-gradient(180deg, #D0DFFB 0%, #D9D0FB 100%);
+  //border-radius: 12px;
+  
+  :hover {
+    opacity: 10%;
+  }
 `;
 export const Box2 = styled(Box1)`
-  background-color: #275AF2;
   margin-left: 5vh;
 `;
 export const Line = styled.div`
@@ -84,4 +86,17 @@ export const Line = styled.div`
   width: 50vh;
   height: 1px;
   background-color: #FFFFFF;
+`;
+export const HideTextWrapper = styled.div`
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+`;
+export const HideText = styled.p`
+  color: white;
+  font-weight: 100;
+  font-size: 18px;
+  ${Box1}:hover & {
+    opacity: 1;
+  }
 `;

@@ -19,6 +19,10 @@ const Forth = () => {
            </S.TextWrapper>
            <S.BoxWrapper>
               <S.ProjectAbout>
+                 <S.HideTextWrapper>
+                    <h4>React <br/>react-reveal<br/> styled-components</h4>
+                    <h4>Frontend Developer, QA</h4>
+                 </S.HideTextWrapper>
                  <S.Box1>
                     <Image
                       className="project-EZY"

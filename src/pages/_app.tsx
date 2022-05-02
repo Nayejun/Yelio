@@ -6,6 +6,7 @@ import Second from "../components/second";
 import Third from "../components/third";
 import Forth from "../components/forth";
 import Fifth from "../components/fifth";
+import Sixth from "../components/sixth";
 
 const MyApp = () => (
   <ReactFullpage
@@ -20,6 +21,7 @@ const MyApp = () => (
                <div className="section"><Third/></div>
                <div className="section"><Forth/></div>
                <div className="section"><Fifth/></div>
+               <div className="section"><Sixth/></div>
             </ReactFullpage.Wrapper>
          </>
        );

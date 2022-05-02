@@ -11,11 +11,14 @@ export const Positioner = styled(Center)`
 `;
 export const Wrapper = styled(Center)`
   width: 100%;
+  height: 100%;
   flex-direction: column;
   z-index: 1;
 `;
 export const TextWrapper = styled(Center)`
+  width: 100%;
   flex-direction: column;
+  margin-top: -4vh;
 `;
 export const Text = styled.p`
   font-style: normal;
@@ -31,8 +34,13 @@ export const About = styled.p`
 `;
 export const SkillsName = styled(About)`
   font-size: 15px;
+  margin-top: 5vh;
+  color: white;
+  letter-spacing: 1px;
 `;
 export const MainSkills = styled(Center)`
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   width: 25%;
   justify-content: space-between;
 `;

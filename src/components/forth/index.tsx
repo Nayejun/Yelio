@@ -4,7 +4,7 @@ import Image from 'next/image'
 import * as S from "./style"
 import EZY from "../../assets/images/Project/EZY.png";
 import GCINSIDE from "../../assets/images/Project/GCINSIDE.png";
-import {Fade} from "react-reveal";
+import Flip from 'react-reveal/Flip';
 
 const BackgroundImg = dynamic(() => import("./BgImg"), {
    ssr: false
@@ -21,7 +21,7 @@ const Forth = () => {
            <S.BoxWrapper>
               <S.ProjectAbout>
                  <S.Box1>
-                    <Fade left>
+                    <Flip left>
                        <Image
                          className="project-EZY"
                          src={EZY.src}
@@ -29,7 +29,7 @@ const Forth = () => {
                          width={300}
                          height={360}
                        />
-                    </Fade>
+                    </Flip>
                  </S.Box1>
                  <S.About className="EZY">EZY</S.About>
                  <S.Line/>
@@ -37,7 +37,7 @@ const Forth = () => {
               </S.ProjectAbout>
               <S.ProjectAbout>
                  <S.Box2>
-                    <Fade right>
+                    <Flip right>
                        <Image
                          className="project-GCINSIDE"
                          src={GCINSIDE.src}
@@ -45,7 +45,7 @@ const Forth = () => {
                          width={700}
                          height={450}
                        />
-                    </Fade>
+                    </Flip>
                  </S.Box2>
                  <S.About className="GC">GCINSIDE</S.About>
                  <S.Line className="GC-Line"/>

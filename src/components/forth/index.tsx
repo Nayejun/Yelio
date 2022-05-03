@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import dynamic from "next/dynamic";
 import Image from 'next/image'
 import * as S from "./style"

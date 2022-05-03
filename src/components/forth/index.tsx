@@ -20,6 +20,7 @@ const Forth = () => {
            </S.TextWrapper>
            <S.BoxWrapper>
               <S.ProjectAbout>
+                 <S.HideWrapper>Frontend Developer, QA</S.HideWrapper>
                  <S.Box1>
                     <Flip left>
                        <Image
@@ -36,6 +37,7 @@ const Forth = () => {
                  <S.About className="EZY-About">일정관리 iOS 서비스 'EZY' 의 프로모션 페이지를 개발합니다.</S.About>
               </S.ProjectAbout>
               <S.ProjectAbout>
+                 <S.HideWrapper className="position">Frontend Developer, PM</S.HideWrapper>
                  <S.Box2>
                     <Flip right>
                        <Image

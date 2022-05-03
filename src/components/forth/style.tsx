@@ -38,7 +38,9 @@ export const ProjectAbout = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-
+  .position {
+    margin-left: 17vh;
+  }
   .EZY-About, .GC-About {
     font-size: 18px;
     font-weight: lighter;
@@ -73,15 +75,25 @@ export const Box1 = styled.div`
   align-items: center;
   overflow-y: hidden;
   :hover {
-    opacity: 10%;
+    opacity: 5%;
   }
 `;
 export const Box2 = styled(Box1)`
-  margin-left: 5vh;
 `;
 export const Line = styled.div`
   margin-top: 2vh;
   width: 50vh;
   height: 1px;
   background-color: #FFFFFF;
+`;
+export const HideWrapper = styled(About)`
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  color: white;
+  margin-top: 17vh;
+  margin-left: 15.5vh;
 `;

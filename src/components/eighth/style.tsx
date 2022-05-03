@@ -57,9 +57,13 @@ export const Wrapper = styled(Center)`
   }
 
   .position {
-    margin-top: 2vh;
+    margin-top: 3vh;
     font-size: 25px;
     color: white;
+  }
+  .identity {
+    margin-top: 3vh;
+    font-size: 20px;
   }
 `;
 export const About = styled.div`

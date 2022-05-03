@@ -71,7 +71,7 @@ export const Box1 = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  overflow-y: hidden;
   :hover {
     opacity: 10%;
   }
@@ -84,17 +84,4 @@ export const Line = styled.div`
   width: 50vh;
   height: 1px;
   background-color: #FFFFFF;
-`;
-export const HideTextWrapper = styled.div`
-  justify-content: center;
-  flex-direction: column;
-  opacity: 0;
-`;
-export const HideText = styled.p`
-  color: white;
-  font-weight: 100;
-  font-size: 18px;
-  ${Box1}:hover & {
-    opacity: 1;
-  }
 `;

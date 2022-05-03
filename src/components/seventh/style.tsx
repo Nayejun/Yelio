@@ -33,14 +33,14 @@ export const Right = styled(Left)`
     margin-top: 1vh;
   }
 `;
-export const Experienced = styled.p`
+export const Experienced = styled.span`
   font-style: normal;
   font-weight: 800;
   font-size: 72px;
   line-height: 86px;
   color: #FFFFFF;
 `;
-export const About = styled.p`
+export const About = styled.span`
   font-style: normal;
   font-size: 20px;
   font-weight: 100;

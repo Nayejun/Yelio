@@ -28,7 +28,10 @@ export const ProfileLine = styled.div`
   background-color: white;
   margin-right: 3vh;
 `;
-export const Information = styled.p`
+export const Information = styled.span`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   font-style: normal;
   font-weight: 600;
   font-size: 50px;
@@ -36,7 +39,7 @@ export const Information = styled.p`
   color: #FFFFFF;
   z-index: 1;
 
-  p {
+  span {
     letter-spacing: 1px;
     line-height: 55px;
     color: #BFBFBF;

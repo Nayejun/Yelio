@@ -9,7 +9,7 @@ export const Positioner = styled(Center)`
   width: 100%;
   height: 100vh;
 `;
-export const Text = styled.p`
+export const Text = styled.span`
   font-style: normal;
   font-weight: 600;
   font-size: 65px;

@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
 `;
-export const WhoAreYou = styled.p`
+export const WhoAreYou = styled.span`
   font-style: normal;
   font-weight: 600;
   font-size: 65px;

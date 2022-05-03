@@ -6,13 +6,13 @@ const BackgroundImg = dynamic(() => import("./BgImg"), {
    ssr: false
 })
 
-const Fifth = () => {
+const Zero = () => {
    return (
      <S.Positioner>
-        <S.Text>I, Did It</S.Text>
-         <BackgroundImg/>
+        <S.Text>I, Can</S.Text>
+        <BackgroundImg/>
      </S.Positioner>
    );
 }
 
-export default Fifth;
+export default Zero;

@@ -26,7 +26,7 @@ export const Left = styled(Center)`
 export const Right = styled(Left)`
   .KDN, .AI, .SW, .SAM {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 26px;
   }
 `;
 export const Experienced = styled.p`

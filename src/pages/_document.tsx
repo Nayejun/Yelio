@@ -34,6 +34,7 @@ export default class MyDocument extends Document {
         <Html lang="en">
            <Head>
               <title>Yelio</title>
+              <link rel="shortcut icon" href="/favicon.ico" />
            </Head>
            <body>
            <Main/>

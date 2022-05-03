@@ -71,6 +71,10 @@ export const About = styled.div`
   font-style: normal;
   font-size: 15px;
   color: #BABBBE;
+  a{
+    color: white;
+    text-decoration: none;
+  }
 `;
 export const Rectangle = styled.div`
   z-index: 0;

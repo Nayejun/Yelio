@@ -9,7 +9,7 @@ const BackgroundImg = dynamic(() => import("./BgImg"), {
 const Fifth = () => {
    return (
      <S.Positioner>
-        <S.Text>I, Did It</S.Text>
+        <S.Text>I, Did</S.Text>
          <BackgroundImg/>
      </S.Positioner>
    );

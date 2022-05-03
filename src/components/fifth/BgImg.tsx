@@ -27,7 +27,6 @@ const BgImg = () => {
 
    useEffect(() => {
       const {width, height} = getWindowDimensions();
-
       setWidth(width);
       setHeight(height);
    }, []);

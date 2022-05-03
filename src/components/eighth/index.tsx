@@ -4,7 +4,21 @@ import * as S from "./style";
 const Eighth = () => {
    return (
      <S.Positioner>
-        
+        <S.Wrapper>
+           <S.About className="title">Pleasant, Sensuous, meticulous, Cool</S.About>
+           <S.About className="position">Frontend Developer</S.About>
+        </S.Wrapper>
+        <S.Footer>
+           <S.AboutWrapper>
+              <S.AboutWrapperTitle><S.Line/><S.About>Email</S.About></S.AboutWrapperTitle>
+              <S.About className="email">nayejun.me@gmail.com</S.About>
+              <S.AboutWrapperTitle><S.Line/><S.About>Github</S.About></S.AboutWrapperTitle>
+              <S.About className="github">https://github.com/Nayejun</S.About>
+           </S.AboutWrapper>
+        </S.Footer>
+        <S.Rectangle1/>
+        <S.Rectangle2/>
+        <S.Rectangle3/>
      </S.Positioner>
    );
 }

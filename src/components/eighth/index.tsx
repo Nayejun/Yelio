@@ -1,13 +1,14 @@
 import React from "react";
 import * as S from "./style";
+import {Fade} from "react-reveal";
 
 const Eighth = () => {
    return (
      <S.Positioner>
         <S.Wrapper>
-           <S.About className="title">Pleasant, Sensuous, meticulous, Cool</S.About>
-           <S.About className="position">Frontend Developer</S.About>
-           <S.About className="identity">유쾌한, 감각적인, 꼼꼼한, 쿨한 프론트엔드 개발자</S.About>
+           <Fade top><S.About className="title">Pleasant, Sensuous, meticulous, Cool</S.About></Fade>
+           <Fade top><S.About className="position">Frontend Developer</S.About></Fade>
+           <Fade top><S.About className="identity">유쾌한, 감각적인, 꼼꼼한, 쿨한 프론트엔드 개발자</S.About></Fade>
         </S.Wrapper>
         <S.Footer>
            <S.AboutWrapper>

@@ -15,7 +15,6 @@
     "next": "12.1.5",
     "next-images": "^1.8.4",
     "react": "^18.1.0",
-    "react-awesome-reveal": "^3.8.1",
     "react-dom": "18.0.0",
     "react-is": "^18.0.0",
     "react-reveal": "^1.2.2",

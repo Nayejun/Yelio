@@ -28,6 +28,10 @@ export const Right = styled(Left)`
     font-weight: 400;
     font-size: 26px;
   }
+
+  .AI, .SW, .SAM {
+    margin-top: 1vh;
+  }
 `;
 export const Experienced = styled.p`
   font-style: normal;

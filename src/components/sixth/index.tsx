@@ -8,6 +8,7 @@ import Styled_Img from "../../assets/images/Skills/Styled_Img.png";
 import NEXT_Img from "../../assets/images/Skills/NEXT_Img.png"
 import SWR_Img from "../../assets/images/Skills/SWR_Img.png"
 import Emotion_Img from "../../assets/images/Skills/Emotion_Img.png"
+import {Fade} from "react-reveal";
 
 
 const BackgroundImg = dynamic(() => import("./BgImg"), {
@@ -24,65 +25,77 @@ const Sixth = () => {
            </S.TextWrapper>
            <S.MainSkills>
               <S.React>
-                 <Image
-                   className="React Logo"
-                   src={React_Img.src}
-                   alt="Picture of the author"
-                   width={130}
-                   height={130}
-                 />
+                 <Fade top>
+                    <Image
+                      className="React Logo"
+                      src={React_Img.src}
+                      alt="Picture of the author"
+                      width={130}
+                      height={130}
+                    />
+                 </Fade>
                  <S.SkillsName className="React">React</S.SkillsName>
               </S.React>
               <S.TypeScript>
-                 <Image
-                   className="TypeScript Logo"
-                   src={TS_Img.src}
-                   alt="Picture of the author"
-                   width={130}
-                   height={130}
-                 />
+                 <Fade top>
+                    <Image
+                      className="TypeScript Logo"
+                      src={TS_Img.src}
+                      alt="Picture of the author"
+                      width={130}
+                      height={130}
+                    />
+                 </Fade>
                  <S.SkillsName className="TypeScript">TypeScript</S.SkillsName>
               </S.TypeScript>
            </S.MainSkills>
            <S.SubSkills>
               <S.StyledComponents>
-                 <Image
-                   className="styled-components Logo"
-                   src={Styled_Img.src}
-                   alt="Picture of the author"
-                   width={130}
-                   height={130}
-                 />
+                 <Fade left>
+                    <Image
+                      className="styled-components Logo"
+                      src={Styled_Img.src}
+                      alt="Picture of the author"
+                      width={130}
+                      height={130}
+                    />
+                 </Fade>
                  <S.SkillsName className="styled-components">styled-components</S.SkillsName>
               </S.StyledComponents>
               <S.NEXT>
-                 <Image
-                   className="NEXT.js Logo"
-                   src={NEXT_Img.src}
-                   alt="Picture of the author"
-                   width={298}
-                   height={130}
-                 />
+                 <Fade top>
+                    <Image
+                      className="NEXT.js Logo"
+                      src={NEXT_Img.src}
+                      alt="Picture of the author"
+                      width={298}
+                      height={130}
+                    />
+                 </Fade>
                  <S.SkillsName className="NEXT">NEXT.js</S.SkillsName>
               </S.NEXT>
               <S.SWR>
-                 <Image
-                   className="SWR Logo"
-                   src={SWR_Img.src}
-                   alt="Picture of the author"
-                   width={231}
-                   height={130}
-                 />
+                 <Fade top>
+                    <Image
+                      className="SWR Logo"
+                      src={SWR_Img.src}
+                      alt="Picture of the author"
+                      width={231}
+                      height={130}
+                    />
+                 </Fade>
                  <S.SkillsName className="SWR">SWR</S.SkillsName>
               </S.SWR>
               <S.Emotion>
-                 <Image
-                   className="Emotion Logo"
-                   src={Emotion_Img.src}
-                   alt="Picture of the author"
-                   width={130}
-                   height={130}
-                 />
+                 <Fade right>
+                    <Image
+                      className="Emotion Logo"
+                      src={Emotion_Img.src}
+                      alt="Picture of the author"
+                      width={130}
+                      height={130}
+                    />
+                 </Fade>
                  <S.SkillsName className="Emotion">Emotion</S.SkillsName>
               </S.Emotion>
            </S.SubSkills>

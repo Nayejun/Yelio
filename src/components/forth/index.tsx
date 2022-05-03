@@ -4,6 +4,7 @@ import Image from 'next/image'
 import * as S from "./style"
 import EZY from "../../assets/images/Project/EZY.png";
 import GCINSIDE from "../../assets/images/Project/GCINSIDE.png";
+import {Fade} from "react-reveal";
 
 const BackgroundImg = dynamic(() => import("./BgImg"), {
    ssr: false
@@ -20,13 +21,15 @@ const Forth = () => {
            <S.BoxWrapper>
               <S.ProjectAbout>
                  <S.Box1>
-                    <Image
-                      className="project-EZY"
-                      src={EZY.src}
-                      alt="Picture of the author"
-                      width={300}
-                      height={360}
-                    />
+                    <Fade left>
+                       <Image
+                         className="project-EZY"
+                         src={EZY.src}
+                         alt="Picture of the author"
+                         width={300}
+                         height={360}
+                       />
+                    </Fade>
                  </S.Box1>
                  <S.About className="EZY">EZY</S.About>
                  <S.Line/>
@@ -34,13 +37,15 @@ const Forth = () => {
               </S.ProjectAbout>
               <S.ProjectAbout>
                  <S.Box2>
-                    <Image
-                      className="project-GCINSIDE"
-                      src={GCINSIDE.src}
-                      alt="Picture of the author"
-                      width={700}
-                      height={450}
-                    />
+                    <Fade right>
+                       <Image
+                         className="project-GCINSIDE"
+                         src={GCINSIDE.src}
+                         alt="Picture of the author"
+                         width={700}
+                         height={450}
+                       />
+                    </Fade>
                  </S.Box2>
                  <S.About className="GC">GCINSIDE</S.About>
                  <S.Line className="GC-Line"/>

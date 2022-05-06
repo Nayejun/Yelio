@@ -15,7 +15,7 @@ const Eighth = () => {
               <S.About className="email">nayejun.me@gmail.com</S.About>
               <S.AboutWrapperTitle><S.Line/><S.About>Github</S.About></S.AboutWrapperTitle>
               <S.About className="github">
-                 <a href="https://github.com/Nayejun" target="_blank">https://github.com/Nayejun</a>
+                 <a href="https://github.com/Nayejun" target="_blank">https://github.com/Nayejun rel="noopener noreferrer"</a>
               </S.About>
            </S.AboutWrapper>
         </S.Footer>

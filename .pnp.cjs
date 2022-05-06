@@ -47,7 +47,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:e2dafedcfc35f5b994018c32138fb44cfa264e35ad31dcc0e5e37eab174bad08008e97338d4f1ff8a4c251477f41177429f48afce17888abadf0d11d9c1aae3c#npm:18.0.0"],\
             ["react-is", "npm:18.1.0"],\
             ["react-modal", "virtual:e2dafedcfc35f5b994018c32138fb44cfa264e35ad31dcc0e5e37eab174bad08008e97338d4f1ff8a4c251477f41177429f48afce17888abadf0d11d9c1aae3c#npm:3.15.1"],\
-            ["react-reveal", "virtual:e2dafedcfc35f5b994018c32138fb44cfa264e35ad31dcc0e5e37eab174bad08008e97338d4f1ff8a4c251477f41177429f48afce17888abadf0d11d9c1aae3c#npm:1.2.2"],\
             ["styled-components", "virtual:e2dafedcfc35f5b994018c32138fb44cfa264e35ad31dcc0e5e37eab174bad08008e97338d4f1ff8a4c251477f41177429f48afce17888abadf0d11d9c1aae3c#npm:5.3.5"],\
             ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
           ],\
@@ -3603,29 +3602,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["react-reveal", [\
-        ["npm:1.2.2", {\
-          "packageLocation": "./.yarn/cache/react-reveal-npm-1.2.2-27b882f87d-c15f62ed8b.zip/node_modules/react-reveal/",\
-          "packageDependencies": [\
-            ["react-reveal", "npm:1.2.2"]\
-          ],\
-          "linkType": "SOFT"\
-        }],\
-        ["virtual:e2dafedcfc35f5b994018c32138fb44cfa264e35ad31dcc0e5e37eab174bad08008e97338d4f1ff8a4c251477f41177429f48afce17888abadf0d11d9c1aae3c#npm:1.2.2", {\
-          "packageLocation": "./.yarn/__virtual__/react-reveal-virtual-f9175d395a/0/cache/react-reveal-npm-1.2.2-27b882f87d-c15f62ed8b.zip/node_modules/react-reveal/",\
-          "packageDependencies": [\
-            ["react-reveal", "virtual:e2dafedcfc35f5b994018c32138fb44cfa264e35ad31dcc0e5e37eab174bad08008e97338d4f1ff8a4c251477f41177429f48afce17888abadf0d11d9c1aae3c#npm:1.2.2"],\
-            ["@types/react", "npm:18.0.8"],\
-            ["prop-types", "npm:15.8.1"],\
-            ["react", "npm:18.1.0"]\
-          ],\
-          "packagePeers": [\
-            "@types/react",\
-            "react"\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["regenerator-runtime", [\
         ["npm:0.13.9", {\
           "packageLocation": "./.yarn/cache/regenerator-runtime-npm-0.13.9-6d02340eec-65ed455fe5.zip/node_modules/regenerator-runtime/",\
@@ -4297,7 +4273,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:e2dafedcfc35f5b994018c32138fb44cfa264e35ad31dcc0e5e37eab174bad08008e97338d4f1ff8a4c251477f41177429f48afce17888abadf0d11d9c1aae3c#npm:18.0.0"],\
             ["react-is", "npm:18.1.0"],\
             ["react-modal", "virtual:e2dafedcfc35f5b994018c32138fb44cfa264e35ad31dcc0e5e37eab174bad08008e97338d4f1ff8a4c251477f41177429f48afce17888abadf0d11d9c1aae3c#npm:3.15.1"],\
-            ["react-reveal", "virtual:e2dafedcfc35f5b994018c32138fb44cfa264e35ad31dcc0e5e37eab174bad08008e97338d4f1ff8a4c251477f41177429f48afce17888abadf0d11d9c1aae3c#npm:1.2.2"],\
             ["styled-components", "virtual:e2dafedcfc35f5b994018c32138fb44cfa264e35ad31dcc0e5e37eab174bad08008e97338d4f1ff8a4c251477f41177429f48afce17888abadf0d11d9c1aae3c#npm:5.3.5"],\
             ["typescript", "patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"]\
           ],\

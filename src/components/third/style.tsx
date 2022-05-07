@@ -15,6 +15,12 @@ export const ProfileWrapper = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 1;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 `;
 export const ProfileRight = styled.div`
   display: flex;

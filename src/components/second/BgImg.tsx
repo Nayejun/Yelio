@@ -4,7 +4,7 @@ import Bg from "../../assets/images/Background/BG1.png";
 import styled from "styled-components";
 
 const Positioner = styled.div`
-  //position: fixed;x
+  //position: fixed;
   position: absolute;
   z-index: 0;
   top: 0;
@@ -12,6 +12,11 @@ const Positioner = styled.div`
   right: 0;
   left: 0;
   overflow-y: hidden;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
 `;
 
 const getWindowDimensions = () => {
@@ -50,6 +55,7 @@ const BgImg = () => {
              src={Bg.src}
              width={width}
              height={height}
+             draggable="false"
            />
         </Positioner>
       );

@@ -21,6 +21,7 @@ const Third = () => {
                 alt="Picture of the author"
                 width={400}
                 height={460}
+                draggable="false"
               />
            </Flip>
            <S.ProfileRight>

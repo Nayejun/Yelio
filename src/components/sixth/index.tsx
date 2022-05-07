@@ -32,6 +32,7 @@ const Sixth = () => {
                       alt="Picture of the author"
                       width={130}
                       height={130}
+                      draggable="false"
                     />
                  </Flip>
                  <S.SkillsName className="React">React</S.SkillsName>
@@ -44,6 +45,7 @@ const Sixth = () => {
                       alt="Picture of the author"
                       width={130}
                       height={130}
+                      draggable="false"
                     />
                  </Flip>
                  <S.SkillsName className="TypeScript">TypeScript</S.SkillsName>
@@ -58,6 +60,7 @@ const Sixth = () => {
                       alt="Picture of the author"
                       width={130}
                       height={130}
+                      draggable="false"
                     />
                  </Flip>
                  <S.SkillsName className="styled-components">styled-components</S.SkillsName>
@@ -70,6 +73,7 @@ const Sixth = () => {
                       alt="Picture of the author"
                       width={298}
                       height={130}
+                      draggable="false"
                     />
                  </Flip>
                  <S.SkillsName className="NEXT">NEXT.js</S.SkillsName>
@@ -82,6 +86,7 @@ const Sixth = () => {
                       alt="Picture of the author"
                       width={231}
                       height={130}
+                      draggable="false"
                     />
                  </Flip>
                  <S.SkillsName className="SWR">SWR</S.SkillsName>
@@ -94,6 +99,7 @@ const Sixth = () => {
                       alt="Picture of the author"
                       width={130}
                       height={130}
+                      draggable="false"
                     />
                  </Flip>
                  <S.SkillsName className="Emotion">Emotion</S.SkillsName>

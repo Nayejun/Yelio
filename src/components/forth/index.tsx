@@ -29,6 +29,7 @@ const Forth = () => {
                          alt="Picture of the author"
                          width={300}
                          height={360}
+                         draggable="false"
                        />
                     </Flip>
                  </S.Box1>
@@ -46,6 +47,7 @@ const Forth = () => {
                          alt="Picture of the author"
                          width={700}
                          height={450}
+                         draggable="false"
                        />
                     </Flip>
                  </S.Box2>

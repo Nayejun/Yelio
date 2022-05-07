@@ -40,4 +40,4 @@ const Third = () => {
    );
 }
 
-export default Third;
+export default Third

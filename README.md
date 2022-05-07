@@ -1,6 +1,6 @@
 # 4YJ's portfolio website 🚀
 
-### This page is optimized for _'Chrome browser'_
+## This page is optimized for _'Chrome browser'_
 
 ### Please don't report the issue
 - I don't fix it 🧑‍🔧

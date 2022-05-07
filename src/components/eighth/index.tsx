@@ -10,10 +10,10 @@ const Eighth = () => {
            <Fade top>
               <S.About className="title">Pleasant, Sensuous, meticulous, Cool</S.About>
            </Fade>
-           <Fade top>
+           <Fade right>
               <S.About className="position">Frontend Developer</S.About>
            </Fade>
-           <Fade top>
+           <Fade bottom>
               <S.About className="identity">유쾌한, 감각적인, 꼼꼼한, 쿨한 프론트엔드 개발자</S.About>
            </Fade>
         </S.Wrapper>

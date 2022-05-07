@@ -9,6 +9,7 @@ const BackgroundImg = dynamic(() => import("./BgImg"), {
 })
 const Flip = require("react-reveal/Flip")
 const Slide = require("react-reveal/Slide")
+const Fade = require("react-reveal/Fade")
 
 const Third = () => {
    return (
@@ -27,7 +28,6 @@ const Third = () => {
            <S.ProfileRight>
               <S.ProfileLine/>
               <S.Information>
-                 나예준
                  <Slide top><span className="position">Frontend Developer</span></Slide>
                  <Slide top><span className="mbti">INTJ</span></Slide>
                  <Slide top><span className="birthday">2004.07.05</span></Slide>

@@ -9,6 +9,8 @@ const BackgroundImg = dynamic(() => import("./BgImg"), {
    ssr: false
 })
 const Flip = require("react-reveal/Flip")
+const Slide = require("react-reveal/Slide")
+
 
 const Forth = () => {
    return (
@@ -35,7 +37,7 @@ const Forth = () => {
                  </S.Box1>
                  <S.About className="EZY">EZY</S.About>
                  <S.Line/>
-                 <S.About className="EZY-About">일정관리 iOS 서비스 'EZY' 의 프로모션 페이지를 개발합니다.</S.About>
+                 <S.About className="EZY-About"><Slide top>일정관리 iOS 서비스 'EZY' 의 프로모션 페이지를 개발합니다.</Slide></S.About>
               </S.ProjectAbout>
               <S.ProjectAbout>
                  <S.HideWrapper className="position">Frontend Developer, PM</S.HideWrapper>
@@ -53,7 +55,7 @@ const Forth = () => {
                  </S.Box2>
                  <S.About className="GC">GCINSIDE</S.About>
                  <S.Line className="GC-Line"/>
-                 <S.About className="GC-About">광주소프트웨어마이스터고등학교 학생 커뮤니티 서비스를 개발합니다.</S.About>
+                 <S.About className="GC-About"><Slide top>광주소프트웨어마이스터고등학교 학생 커뮤니티 서비스를 개발합니다.</Slide></S.About>
               </S.ProjectAbout>
            </S.BoxWrapper>
         </S.Wrapper>

@@ -2,7 +2,7 @@
 
 ### This page is optimized for _'Chrome browser'_
 
-<img src="https://user-images.githubusercontent.com/67637706/167251587-f1bf63a2-d03c-4fc6-8468-c6f2d3dc2e40.jpeg" width="700px" height="350px">
+<img src="https://user-images.githubusercontent.com/67637706/167251587-f1bf63a2-d03c-4fc6-8468-c6f2d3dc2e40.jpeg" width="1000px" height="600px">
 
 ### Please don't report the issue
 - I don't fix it 🧑‍🔧

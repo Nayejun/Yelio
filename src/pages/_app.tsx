@@ -1,4 +1,5 @@
 import React from "react";
+import Head from 'next/head'
 import ReactFullpage from '@fullpage/react-fullpage';
 import {GlobalStyle} from "../styles/GlobalStyle";
 import First from "../components/first";
@@ -17,6 +18,9 @@ const MyApp = () => (
     render={({state, fullpageApi}) => {
        return (
          <>
+            <Head>
+               <title>Yelio</title>
+            </Head>
             <GlobalStyle/>
             <ReactFullpage.Wrapper>
                <div className="section"><First/></div>

@@ -61,6 +61,7 @@ export const Wrapper = styled(Center)`
     font-size: 25px;
     color: white;
   }
+
   .identity {
     margin-top: 3vh;
     font-size: 20px;
@@ -71,7 +72,22 @@ export const About = styled.div`
   font-style: normal;
   font-size: 15px;
   color: #BABBBE;
-  a{
+  
+  position: relative;
+  overflow: hidden;
+  animation: About 1s ease-in-out;
+  
+  @keyframes About {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  a {
     color: white;
     text-decoration: none;
   }

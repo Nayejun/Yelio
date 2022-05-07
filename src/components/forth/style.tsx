@@ -95,5 +95,5 @@ export const HideWrapper = styled(About)`
   z-index: 0;
   color: white;
   margin-top: 17vh;
-  margin-left: 15.5vh;
+  margin-left: 15.7vh;
 `;

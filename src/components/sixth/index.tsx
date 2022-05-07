@@ -13,6 +13,7 @@ import Emotion_Img from "../../assets/images/Skills/Emotion_Img.png"
 const BackgroundImg = dynamic(() => import("./BgImg"), {
    ssr: false
 })
+const Flip = require("react-reveal/Flip")
 
 const Sixth = () => {
    return (
@@ -24,6 +25,7 @@ const Sixth = () => {
            </S.TextWrapper>
            <S.MainSkills>
               <S.React>
+                 <Flip top>
                     <Image
                       className="React Logo"
                       src={React_Img.src}
@@ -31,9 +33,11 @@ const Sixth = () => {
                       width={130}
                       height={130}
                     />
+                 </Flip>
                  <S.SkillsName className="React">React</S.SkillsName>
               </S.React>
               <S.TypeScript>
+                 <Flip top>
                     <Image
                       className="TypeScript Logo"
                       src={TS_Img.src}
@@ -41,11 +45,13 @@ const Sixth = () => {
                       width={130}
                       height={130}
                     />
+                 </Flip>
                  <S.SkillsName className="TypeScript">TypeScript</S.SkillsName>
               </S.TypeScript>
            </S.MainSkills>
            <S.SubSkills>
               <S.StyledComponents>
+                 <Flip left>
                     <Image
                       className="styled-components Logo"
                       src={Styled_Img.src}
@@ -53,9 +59,11 @@ const Sixth = () => {
                       width={130}
                       height={130}
                     />
+                 </Flip>
                  <S.SkillsName className="styled-components">styled-components</S.SkillsName>
               </S.StyledComponents>
               <S.NEXT>
+                 <Flip top>
                     <Image
                       className="NEXT.js Logo"
                       src={NEXT_Img.src}
@@ -63,9 +71,11 @@ const Sixth = () => {
                       width={298}
                       height={130}
                     />
+                 </Flip>
                  <S.SkillsName className="NEXT">NEXT.js</S.SkillsName>
               </S.NEXT>
               <S.SWR>
+                 <Flip top>
                     <Image
                       className="SWR Logo"
                       src={SWR_Img.src}
@@ -73,9 +83,11 @@ const Sixth = () => {
                       width={231}
                       height={130}
                     />
+                 </Flip>
                  <S.SkillsName className="SWR">SWR</S.SkillsName>
               </S.SWR>
               <S.Emotion>
+                 <Flip right>
                     <Image
                       className="Emotion Logo"
                       src={Emotion_Img.src}
@@ -83,6 +95,7 @@ const Sixth = () => {
                       width={130}
                       height={130}
                     />
+                 </Flip>
                  <S.SkillsName className="Emotion">Emotion</S.SkillsName>
               </S.Emotion>
            </S.SubSkills>

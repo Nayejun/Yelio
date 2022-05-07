@@ -7,7 +7,7 @@
 ### Please don't report the issue
 - I don't fix it 🧑‍🔧
 - I'll take care of my work 😝
-- But if it's a shocking problem, I want you to tell me. 🙏
+- But if that's a very shocking problem, please let me know. 🙏
 ### This page doesn't contain everything about me
 - So what?
 - First, Check out my Github

@@ -28,6 +28,7 @@ const Third = () => {
            <S.ProfileRight>
               <S.ProfileLine/>
               <S.Information>
+                 나예준
                  <Slide top><span className="position">Frontend Developer</span></Slide>
                  <Slide top><span className="mbti">INTJ</span></Slide>
                  <Slide top><span className="birthday">2004.07.05</span></Slide>

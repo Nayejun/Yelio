@@ -10,7 +10,7 @@ const Second = () => {
    return (
      <>
         <S.Wrapper>
-           <S.WhoAreYou>Who Am I ?</S.WhoAreYou>
+              <S.WhoAreYou>Who Am I ?</S.WhoAreYou>
            <BackgroundImg/>
         </S.Wrapper>
      </>

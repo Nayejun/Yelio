@@ -11,6 +11,6 @@
 ### This page doesn't contain everything about me
 - So what?
 - First, Check out my Github
-- Second, Call me by Email
+- Second, Contact me by Email
 
 ## I hope you'll keep an eye on me who's lacking 👀

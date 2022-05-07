@@ -3,14 +3,17 @@ import * as S from "./style";
 import Image from 'next/image'
 import Profile from "../../assets/images/Profile/profile.png";
 import dynamic from "next/dynamic";
+
 const BackgroundImg = dynamic(() => import("./BgImg"), {
    ssr: false
 })
+const Flip = require("react-reveal/Flip")
 
 const Third = () => {
    return (
      <S.Positioner>
         <S.ProfileWrapper>
+           <Flip top>
               <Image
                 className="my-img"
                 src={Profile.src}
@@ -18,6 +21,7 @@ const Third = () => {
                 width={400}
                 height={460}
               />
+           </Flip>
            <S.ProfileRight>
               <S.ProfileLine/>
               <S.Information>

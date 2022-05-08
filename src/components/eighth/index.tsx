@@ -8,7 +8,7 @@ const Eighth = () => {
      <S.Positioner>
         <S.Wrapper>
            <Fade top>
-              <S.About className="title">Pleasant, Sensuous, meticulous, Cool</S.About>
+              <S.About className="title">Pleasant, Sensuous, Meticulous, Cool</S.About>
            </Fade>
            <Fade top>
               <S.About className="position">Frontend Developer</S.About>
